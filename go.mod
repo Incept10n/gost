@@ -1,12 +1,13 @@
 module github.com/ginuerzh/gost
 
-go 1.22
+go 1.21
 
 replace github.com/templexxx/cpu v0.0.7 => github.com/templexxx/cpu v0.0.10-0.20211111114238-98168dcec14a
 
 require (
 	git.torproject.org/pluggable-transports/goptlib.git v1.3.0
 	github.com/LiamHaworth/go-tproxy v0.0.0-20190726054950-ef7efd7f24ed
+	github.com/Microsoft/go-winio v0.6.2
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/go-gost/gosocks4 v0.0.1
 	github.com/go-gost/gosocks5 v0.3.0
